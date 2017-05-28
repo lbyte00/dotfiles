@@ -27,6 +27,7 @@ Plugin 'endel/vim-github-colorscheme'
 " Autocomplete
 Plugin 'Shougo/deoplete.nvim'
 Plugin 'zchee/deoplete-go', { 'do': 'make'}
+Plugin 'padawan-php/deoplete-padawan'
 Plugin 'ervandew/supertab'
 
 " Other
@@ -34,6 +35,7 @@ Plugin 'bling/vim-airline'
 Plugin 'scrooloose/nerdtree'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
+Plugin 'Shougo/denite.nvim'
 
 call vundle#end()
 
@@ -45,6 +47,7 @@ set ignorecase               " Ignore case while searching
 syntax on                    " Syntax highlighting
 set number                   " Line numbers
 set relativenumber           " Relative numbers
+set completeopt-=preview     " Don't pop up preview window
 
 " 2 spaces to a tab, spaces as tab
 set expandtab
