@@ -1,0 +1,49 @@
+{
+    "go.autocompleteUnimportedPackages": true,
+    "go.formatTool": "goimports",
+    "go.buildTags": "ui automation",
+    "go.docsTool": "gogetdoc",
+    "go.lintTool": "gometalinter",
+    "go.lintFlags": [
+        "--disable-all",
+        "--enable=errcheck varcheck deadcode"
+    ],
+    "go.liveErrors": {
+        "enabled": true,
+        "delay": 0
+    },
+    "window.zoomLevel": 0,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "files.autoSaveDelay": 5000,
+    "files.autoSave": "afterDelay",
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": false
+    },
+    "editor.quickSuggestionsDelay": 0,
+    "workbench.colorTheme": "One Dark Pro",
+    "cSpell.userWords": [
+        "Annotatef",
+        "JWTAPI",
+        "JWTJSON",
+        "UUID",
+        "commonui",
+        "goquery",
+        "gorm",
+        "icrowley",
+        "julienschmidt",
+        "lbyte",
+        "nolint",
+        "postgres",
+        "stretchr",
+        "tgbotapi"
+    ],
+    "files.associations": {
+        "*.tmpl": "html"
+    },
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 13,
+    "editor.fontLigatures": true
+}
