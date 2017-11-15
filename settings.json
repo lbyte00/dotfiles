@@ -1,7 +1,9 @@
 {
     "go.autocompleteUnimportedPackages": true,
     "go.formatTool": "goimports",
-    "go.buildTags": "ui automation",
+    "go.testFlags": [
+        "-tags=ui automation"
+    ],
     "go.docsTool": "gogetdoc",
     "go.lintTool": "gometalinter",
     "go.lintFlags": [
@@ -12,6 +14,7 @@
         "enabled": true,
         "delay": 0
     },
+    "go.useLanguageServer": true,
     "window.zoomLevel": 0,
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
@@ -28,6 +31,7 @@
         "Annotatef",
         "JWTAPI",
         "JWTJSON",
+        "Puerkito",
         "UUID",
         "commonui",
         "goquery",
