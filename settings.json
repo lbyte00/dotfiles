@@ -1,9 +1,7 @@
 {
     "go.autocompleteUnimportedPackages": true,
     "go.formatTool": "goimports",
-    "go.testFlags": [
-        "-tags=ui automation"
-    ],
+    "go.buildTags": "ui automation",
     "go.docsTool": "gogetdoc",
     "go.lintTool": "gometalinter",
     "go.lintFlags": [
@@ -12,42 +10,73 @@
     ],
     "go.liveErrors": {
         "enabled": true,
-        "delay": 0
+        "delay": 100
     },
     "go.useLanguageServer": true,
+    "go.coverageDecorator": "gutter",
     "window.zoomLevel": 0,
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
-    "files.autoSaveDelay": 5000,
-    "files.autoSave": "afterDelay",
     "editor.quickSuggestions": {
         "other": true,
         "comments": true,
         "strings": false
     },
     "editor.quickSuggestionsDelay": 0,
-    "workbench.colorTheme": "One Dark Pro",
     "cSpell.userWords": [
         "Annotatef",
+        "IAPI",
         "JWTAPI",
         "JWTJSON",
         "Puerkito",
         "UUID",
+        "Uploader",
         "commonui",
+        "fset",
         "goquery",
         "gorm",
         "icrowley",
         "julienschmidt",
         "lbyte",
+        "logrus",
         "nolint",
         "postgres",
+        "priv",
+        "sclevine",
         "stretchr",
-        "tgbotapi"
+        "structs",
+        "tgbotapi",
+        "tmpl",
+        "tmpls",
+        "unmarshals"
     ],
-    "files.associations": {
-        "*.tmpl": "html"
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/*.meta": true,
+        "**/*.*.meta": true,
+        "**/*.unity": true,
+        "**/*.unityproj": true,
+        "**/*.mat": true,
+        "**/*.fbx": true,
+        "**/*.FBX": true,
+        "**/*.tga": true,
+        "**/*.cubemap": true,
+        "**/*.prefab": true,
+        "**/Library": true,
+        "**/ProjectSettings": true,
+        "**/Temp": true
     },
     "editor.fontFamily": "Fira Code",
     "editor.fontSize": 13,
-    "editor.fontLigatures": true
+    "editor.fontLigatures": true,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": true,
+    "html.format.enable": true,
+    "html.format.indentInnerHtml": true,
+    "php.suggest.basic": false,
+    "java.format.enabled": false,
+    "workbench.colorTheme": "One Dark Pro Vivid",
+    "omnisharp.useMono": true,
+    "csharp.referencesCodeLens.enabled": false
 }
