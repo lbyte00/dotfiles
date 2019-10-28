@@ -1,82 +1,85 @@
 {
     "go.autocompleteUnimportedPackages": true,
-    "go.formatTool": "goimports",
-    "go.buildTags": "ui automation",
+    "go.buildTags": "ui automation smoke",
     "go.docsTool": "gogetdoc",
-    "go.lintTool": "gometalinter",
-    "go.lintFlags": [
-        "--disable-all",
-        "--enable=errcheck varcheck deadcode"
-    ],
-    "go.liveErrors": {
-        "enabled": true,
-        "delay": 100
+    "go.coverageDecorator": {
+      "type": "gutter"
     },
-    "go.useLanguageServer": true,
-    "go.coverageDecorator": "gutter",
     "window.zoomLevel": 0,
-    "editor.formatOnSave": true,
-    "editor.formatOnType": true,
+    "editor.formatOnType": false,
     "editor.quickSuggestions": {
-        "other": true,
-        "comments": true,
-        "strings": false
+      "other": true,
+      "comments": true,
+      "strings": false
     },
     "editor.quickSuggestionsDelay": 0,
-    "cSpell.userWords": [
-        "Annotatef",
-        "IAPI",
-        "JWTAPI",
-        "JWTJSON",
-        "Puerkito",
-        "UUID",
-        "Uploader",
-        "commonui",
-        "fset",
-        "goquery",
-        "gorm",
-        "icrowley",
-        "julienschmidt",
-        "lbyte",
-        "logrus",
-        "nolint",
-        "postgres",
-        "priv",
-        "sclevine",
-        "stretchr",
-        "structs",
-        "tgbotapi",
-        "tmpl",
-        "tmpls",
-        "unmarshals"
-    ],
     "files.exclude": {
-        "**/.git": true,
-        "**/.DS_Store": true,
-        "**/*.meta": true,
-        "**/*.*.meta": true,
-        "**/*.unity": true,
-        "**/*.unityproj": true,
-        "**/*.mat": true,
-        "**/*.fbx": true,
-        "**/*.FBX": true,
-        "**/*.tga": true,
-        "**/*.cubemap": true,
-        "**/*.prefab": true,
-        "**/Library": true,
-        "**/ProjectSettings": true,
-        "**/Temp": true
+      "**/.git": true,
+      "**/.DS_Store": true,
+      "**/*.meta": true,
+      "**/*.*.meta": true,
+      "**/*.unity": true,
+      "**/*.unityproj": true,
+      "**/*.mat": true,
+      "**/*.fbx": true,
+      "**/*.FBX": true,
+      "**/*.tga": true,
+      "**/*.cubemap": true,
+      "**/*.prefab": true,
+      "**/Library": true,
+      "**/ProjectSettings": true,
+      "**/Temp": true,
+      "**/.classpath": true,
+      "**/.project": true,
+      "**/.settings": true,
+      "**/.factorypath": true
     },
     "editor.fontFamily": "Fira Code",
     "editor.fontSize": 13,
     "editor.fontLigatures": true,
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": true,
-    "html.format.enable": true,
-    "html.format.indentInnerHtml": true,
     "php.suggest.basic": false,
-    "java.format.enabled": false,
-    "workbench.colorTheme": "One Dark Pro Vivid",
-    "omnisharp.useMono": true,
-    "csharp.referencesCodeLens.enabled": false
+    "extensions.ignoreRecommendations": true,
+    "[markdown]": {
+      "editor.wordWrap": "off",
+      "editor.quickSuggestions": false,
+      "editor.defaultFormatter": "fcrespo82.markdown-table-formatter",
+    },
+    "json.format.enable": false,
+    "cSpell.language": "en",
+    "files.associations": {
+      "*.tmpl": "html"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.formatOnSave": true,
+    "breadcrumbs.enabled": true,
+    "html.format.indentInnerHtml": true,
+    "java.saveActions.organizeImports": true,
+    "[go]": {
+      "editor.defaultFormatter": "ms-vscode.Go"
+    },
+    "workbench.colorTheme": "Default Light+",
+    "go.useCodeSnippetsOnFunctionSuggest": true,
+    "go.useCodeSnippetsOnFunctionSuggestWithoutType": true,
+    "markdown-table-formatter.markdownGrammarScopes": [
+      "markdown",
+      "go"
+    ],
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "go.lintFlags": [
+      "--fast"
+    ],
+    "go.lintOnSave": "file",
+    "go.useLanguageServer": true,
+    "go.languageServerExperimentalFeatures": {
+      "format": true,
+      "autoComplete": true
+    },
+    "go.alternateTools": {
+      "go-langserver": "golsp"
+    },
+    "go.formatTool": "gofmt",
+    "vsnotes.defaultNotePath": "/Users/lbyte00/Developer/go/src/github.com/lbyte00/notes"
 }
