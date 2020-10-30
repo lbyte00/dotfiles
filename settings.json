@@ -1,85 +1,91 @@
 {
-    "go.autocompleteUnimportedPackages": true,
-    "go.buildTags": "ui automation smoke",
-    "go.docsTool": "gogetdoc",
-    "go.coverageDecorator": {
-      "type": "gutter"
-    },
-    "window.zoomLevel": 0,
-    "editor.formatOnType": false,
-    "editor.quickSuggestions": {
-      "other": true,
-      "comments": true,
-      "strings": false
-    },
-    "editor.quickSuggestionsDelay": 0,
-    "files.exclude": {
-      "**/.git": true,
-      "**/.DS_Store": true,
-      "**/*.meta": true,
-      "**/*.*.meta": true,
-      "**/*.unity": true,
-      "**/*.unityproj": true,
-      "**/*.mat": true,
-      "**/*.fbx": true,
-      "**/*.FBX": true,
-      "**/*.tga": true,
-      "**/*.cubemap": true,
-      "**/*.prefab": true,
-      "**/Library": true,
-      "**/ProjectSettings": true,
-      "**/Temp": true,
-      "**/.classpath": true,
-      "**/.project": true,
-      "**/.settings": true,
-      "**/.factorypath": true
-    },
-    "editor.fontFamily": "Fira Code",
-    "editor.fontSize": 13,
-    "editor.fontLigatures": true,
-    "workbench.editor.enablePreview": false,
-    "workbench.editor.enablePreviewFromQuickOpen": true,
-    "php.suggest.basic": false,
-    "extensions.ignoreRecommendations": true,
-    "[markdown]": {
-      "editor.wordWrap": "off",
-      "editor.quickSuggestions": false,
-      "editor.defaultFormatter": "fcrespo82.markdown-table-formatter",
-    },
-    "json.format.enable": false,
-    "cSpell.language": "en",
-    "files.associations": {
-      "*.tmpl": "html"
-    },
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "editor.formatOnSave": true,
-    "breadcrumbs.enabled": true,
-    "html.format.indentInnerHtml": true,
-    "java.saveActions.organizeImports": true,
-    "[go]": {
-      "editor.defaultFormatter": "ms-vscode.Go"
-    },
-    "workbench.colorTheme": "Default Light+",
-    "go.useCodeSnippetsOnFunctionSuggest": true,
-    "go.useCodeSnippetsOnFunctionSuggestWithoutType": true,
-    "markdown-table-formatter.markdownGrammarScopes": [
-      "markdown",
-      "go"
-    ],
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "go.lintFlags": [
-      "--fast"
-    ],
-    "go.lintOnSave": "file",
-    "go.useLanguageServer": true,
-    "go.languageServerExperimentalFeatures": {
-      "format": true,
-      "autoComplete": true
-    },
-    "go.alternateTools": {
-      "go-langserver": "golsp"
-    },
-    "go.formatTool": "gofmt",
-    "vsnotes.defaultNotePath": "/Users/lbyte00/Developer/go/src/github.com/lbyte00/notes"
+  "go.autocompleteUnimportedPackages": true,
+  "go.buildTags": "ui automation smoke local",
+  "go.docsTool": "gogetdoc",
+  "go.coverageDecorator": {
+    "type": "gutter"
+  },
+  "editor.formatOnType": false,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": false
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/*.meta": true,
+    "**/*.*.meta": true,
+    "**/*.unity": true,
+    "**/*.unityproj": true,
+    "**/*.mat": true,
+    "**/*.fbx": true,
+    "**/*.FBX": true,
+    "**/*.tga": true,
+    "**/*.cubemap": true,
+    "**/*.prefab": true,
+    "**/Library": true,
+    "**/ProjectSettings": true,
+    "**/Temp": true,
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "editor.fontFamily": "Fira Code",
+  "editor.fontSize": 13,
+  "editor.fontLigatures": true,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": true,
+  "php.suggest.basic": false,
+  "extensions.ignoreRecommendations": true,
+  "[markdown]": {
+    "editor.wordWrap": "off",
+    "editor.quickSuggestions": false,
+    "editor.defaultFormatter": "fcrespo82.markdown-table-formatter",
+  },
+  "json.format.enable": false,
+  "cSpell.language": "en",
+  "files.associations": {
+    "*.tmpl": "html",
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.formatOnSave": true,
+  "breadcrumbs.enabled": true,
+  "html.format.indentInnerHtml": true,
+  "java.saveActions.organizeImports": true,
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "go.useCodeSnippetsOnFunctionSuggest": true,
+  "go.useCodeSnippetsOnFunctionSuggestWithoutType": true,
+  "markdown-table-formatter.markdownGrammarScopes": [
+    "markdown",
+    "go"
+  ],
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "go.lintFlags": [
+    "--fast"
+  ],
+  "go.useLanguageServer": true,
+  "go.languageServerExperimentalFeatures": {
+    "format": true,
+    "autoComplete": true
+  },
+  "vsnotes.defaultNotePath": "/Users/lbyte00/Developer/go/src/github.com/lbyte00/notes",
+  "go.lintTool": "golangci-lint",
+  "git.autofetch": true,
+  "blade.format.enable": true,
+  "workbench.colorCustomizations": {},
+  "remote.SSH.useLocalServer": true,
+  "clang-format.style": "",
+  "go.formatTool": "goformat",
+  "workbench.colorTheme": "Community Material Theme Palenight High Contrast",
+  "diffEditor.renderSideBySide": false,
+  "files.insertFinalNewline": true,
+  "window.zoomLevel": 0,
+  "java.semanticHighlighting.enabled": true,
+  "go.lintOnSave": "off",
+  "java.project.importOnFirstTimeStartup": "automatic"
 }
